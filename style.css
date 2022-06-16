@@ -1,0 +1,115 @@
+.container{
+    margin-bottom: 5rem;
+}
+.logo{
+    width: 198.07px;
+    height: 59px;
+}
+.btn{
+    border-style: none;
+    border-radius: 30px;
+    background-color: #21B573;
+    color: white;
+}
+.title-font{
+    font-size: 48px;
+    font-weight: 1000; 
+}
+.title-color{
+   
+   color: #21B573; 
+}
+body{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.container .tp{
+    color: #FD511A;
+}
+ .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-box-1 img {
+    width: 40%;
+    height: 3%;
+    padding: .3%;
+    margin-top: .5%;
+    margin-left: 24%;
+    margin-bottom: .5%;
+}
+.box1,.box2,.box3,.box4{
+    display: block;
+    align-items: center;
+    border:  3px solid;
+    border-style: none;
+    border-radius: 20px;
+    height: 270px;
+    width: 270px;
+    padding: 35px 35px;
+    box-shadow: 5px 5px 10px lightgray;
+    margin: 20px 20px ;
+
+}
+.icon1,.icon2,.icon3{
+    width: 80px;
+    height: 83px;
+}
+.courses{
+font-size: 36px;
+text-align: center;
+
+}
+.card{
+    border-radius: 13px;
+    box-shadow: 5px 5px 10px rgb(92, 91, 91);
+}
+.man-img{
+    width: 123px;
+    height: 115px;
+}
+.testi{
+    margin-bottom: 5rem;
+}
+ul{
+    list-style: none;
+
+}
+.footer{
+    padding: 25px 25px;
+    color: white;
+    background-color: #282531;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: #282531;
+}
+.box1:hover{
+    box-shadow: 5px 5px 10px #282531;
+}
+.box2:hover{
+    box-shadow: 5px 5px 10px #282531;
+}
+.box3:hover{
+    box-shadow: 5px 5px 10px #282531;
+}
+.box4:hover{
+    box-shadow: 5px 5px 10px #282531;
+}
+.card-title{
+font-weight: 900;
+}
+.top-image{
+    width: 100%;
+}
+@media screen and (max-width: 720px) {
+    .top-image{
+        display: flex;
+        justify-content: center;
+        width: 400px;
+        height: 260px;
+    }
+}
