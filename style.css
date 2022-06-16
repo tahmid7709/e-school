@@ -102,13 +102,9 @@ footer{
 .card-title{
 font-weight: 900;
 }
-.top-image{
-    width: 100%;
-}
+
 @media screen and (max-width: 720px) {
     .top-image{
-        display: flex;
-        justify-content: center;
         width: 400px;
         height: 260px;
     }
