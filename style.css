@@ -1,9 +1,27 @@
+
+body{
+    background-size: 100% 100%;
+    background-color: #F0FFF0;
+}
 .container{
     margin-bottom: 5rem;
 }
 .logo{
     width: 198.07px;
     height: 59px;
+}
+.col-md-6 .top-title {
+    width: 100%;
+   
+  
+  
+    
+}
+.col-md-6 .top-image img{
+    
+    width: 100%;  
+   
+    
 }
 .btn{
     border-style: none;
@@ -103,7 +121,7 @@ footer{
 font-weight: 900;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1400px) {
     .top-image{
         width: 400px;
         height: 260px;
